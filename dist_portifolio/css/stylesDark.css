@@ -715,11 +715,11 @@ html  {
     
 	}
 }
-#alterar-cor-btn a{
+.alterar-cor-btn a{
     background: #333;
     border-radius: 4px; 
 }
-#alterar-cor-btn a:hover{
+.alterar-cor-btn a:hover{
     background: #FD1141;
     color: #fff;
 }

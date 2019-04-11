@@ -290,7 +290,6 @@ footer {
 
 
 .vtimeline-content {
-    margin-left: 350px;
     background: #fff;
     border: 1px solid #e6e6e6;
     padding: 15px;
@@ -575,10 +574,7 @@ footer {
     margin-left: 0;
     margin-right: 10px;
 }
-.vtimeline-content {
-    margin-left: 70px;
-}
-}@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 992px) {
     #lead {
     height: auto;
     min-height: auto;
@@ -713,12 +709,12 @@ html  {
     
 	}
 }
-#alterar-cor-btn a{
+.alterar-cor-btn a{
     background: #000;
     border-radius: 4px; 
     color: #fff;
 }
-#alterar-cor-btn a:hover{
+.alterar-cor-btn a:hover{
     background: #FD1141;
     color: #fff;
 }

@@ -54,12 +54,18 @@ function changeColorTheme(){
     if(document.querySelector("link[href='dist_portifolio/css/styles.css']") == null){
         document.querySelector("link[href='dist_portifolio/css/stylesDark.css']").href = "dist_portifolio/css/styles.css";
         document.getElementById('back-btn-cor').style.background = "#000";
+        document.getElementById('back-btn-cor-plus').style.background = "#000";
+        document.getElementById('back-btn-cor-mine').style.background = "#000";
         document.getElementById('back-btn-cor').style.color = "#fff";
         document.getElementById('lead').style.backgroundImage = "url('dist_portifolio/images/background1.jpg')";
         //url(../images/background1.jpg);
     } else {
         document.querySelector("link[href='dist_portifolio/css/styles.css']").href = "dist_portifolio/css/stylesDark.css";
         document.getElementById('back-btn-cor').style.background = "#FD1141";
+        document.getElementById('back-btn-cor-plus').style.background = "#FD1141";
+        document.getElementById('back-btn-cor-mine').style.background = "#FD1141";
+        document.getElementById('back-btn-cor-plus').style.color = "#fff";
+        document.getElementById('back-btn-cor-mine').style.color = "#fff";
         document.getElementById('back-btn-cor').style.color = "#fff";
         document.getElementById('lead').style.backgroundImage = "url('dist_portifolio/images/background2.jpg')";
     }
