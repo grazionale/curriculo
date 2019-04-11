@@ -1,6 +1,7 @@
 body {
     font-family: 'Ubuntu', sans-serif;
     font-size: 16px;
+    background: #FD1141;
 }
 body.active {
     overflow: hidden;
@@ -95,13 +96,14 @@ header.sticky {
 }
 footer {
     padding: 50px 0;
+    background: #000;
 }
 .copyright {
     padding-top: 20px;
 }
 .copyright p {
     margin: 0;
-    color: #74808a;
+    color: #7e8890;
 }
 .top {
     text-align: center;
@@ -117,7 +119,7 @@ footer {
     text-align: center;
 }
 .top i {
-    color: #74808a;
+    color: #7e8890;
 }
 .social {
     text-align: right;
@@ -133,7 +135,7 @@ footer {
 }
 .social a {
     display: block;
-    color: #74808a;
+    color: #7e8890;
     padding: 10px;
 }
 .social a:hover {
@@ -178,7 +180,7 @@ footer {
     background: #FD1141;
 }
 .background-alt {
-    background: #f2f2f5;
+    background: #000;
 }
 #lead {
     position: relative;
@@ -267,10 +269,10 @@ footer {
     border-bottom: 1px solid #dcd9d9;
 }
 #about h2 {
-    color: #1e1e1e;
+    color: #fff;
 }
 #about p {
-    color: #74808a;
+    color: #fff;
     margin: 0;
 }
 #experience {
@@ -279,7 +281,7 @@ footer {
     border-bottom: 1px solid #dcd9d9;
 }
 #experience h2 {
-    color: #1e1e1e;
+    color: #fff;
 }
 #experience-timeline {
     margin: 30px auto 0 auto;
@@ -291,8 +293,8 @@ footer {
 
 .vtimeline-content {
     margin-left: 350px;
-    background: #fff;
-    border: 1px solid #e6e6e6;
+    background: #171717;
+    border: 1px solid #181818;
     padding: 15px;
     border-radius: 3px;
     text-align: left;
@@ -300,7 +302,7 @@ footer {
 .vtimeline-content h3 {
     font-size: 1.5em;
     font-weight: 300;
-    color: #1e1e1e;
+    color: #fff;
     display: inline-block;
     margin: 0;
 }
@@ -311,7 +313,7 @@ footer {
     margin: 0 0 15px 0;
 }
 .vtimeline-content p {
-    color: #74808a;
+    color: #7e8890;
     font-size: 0.9em;
     margin: 0;
 }
@@ -345,7 +347,7 @@ footer {
     left: 0;
     top: 10px;
     font-weight: 300;
-    color: #1e1e1e;
+    color: #fff;
 }
 #education {
     padding: 50px 15px 20px 15px;
@@ -353,7 +355,7 @@ footer {
     text-align: center;
 }
 #education h2 {
-    color: #1e1e1e;
+    color: #fff;
     margin-bottom: 50px;
 }
 .education-block {
@@ -367,21 +369,21 @@ footer {
     font-weight: 500;
     float: left;
     margin: 0;
-    color: #1e1e1e;
+    color: #fff;
 }
 .education-block span {
-    color: #74808a;
+    color: #fff;
     float: right;
 }
 .education-block h4 {
-    color: #74808a;
+    color: #fff;
     clear: both;
     font-weight: 500;
     margin: 0 0 15px 0;
 }
 .education-block p, .education-block ul {
     margin: 0;
-    color: #74808a;
+    color: #fff;
     font-size: 0.9em;
 }
 .education-block ul {
@@ -394,7 +396,7 @@ footer {
     overflow: hidden;
 }
 #projects h2 {
-    color: #1e1e1e;
+    color: #fff;
     margin-bottom: 50px;
 }
 .project {
@@ -418,11 +420,11 @@ footer {
 .project-info h3 {
     font-size: 1.5em;
     font-weight: 300;
-    color: #1e1e1e;
+    color: #fff;
     margin: 0 0 15px 0;
 }
 .project-info p {
-    color: #74808a;
+    color: #7e8890;
     margin: 0 0 15px 0;
     font-size: 0.9em;
 }
@@ -440,7 +442,7 @@ footer {
     text-align: center;
 }
 #skills h2 {
-    color: #1e1e1e;
+    color: #fff;
     margin-bottom: 50px;
 }
 #skills ul {
@@ -453,8 +455,8 @@ footer {
     display: inline-block;
     margin: 7px;
     padding: 5px 10px;
-    color: #1e1e1e;
-    background: #e4e4ea;
+    color: #fff;
+    background: #FD1141;
     list-style: none;
     cursor: default;
     font-size: 1.2em;
@@ -533,7 +535,7 @@ footer {
     border-top: 1px solid #dcd9d9;
 }
 .optional-section h2 {
-    color: #1e1e1e;
+    color: #fff;
 }
 .optional-section-block {
     max-width: 700px;
@@ -546,17 +548,17 @@ footer {
 .optional-section-block h3 {
     font-weight: 500;
     margin: 0 0 15px 0;
-    color: #1e1e1e;
+    color: #fff;
 }
 .optional-section-block h4 {
-    color: #74808a;
+    color: #7e8890;
     clear: both;
     font-weight: 500;
     margin: 0 0 15px 0;
 }
 .optional-section-block p, .optional-section-block ul {
     margin: 0 0 15px 0;
-    color: #74808a;
+    color: #7e8890;
     font-size: 0.9em;
 }
 .optional-section-block ul {
@@ -714,9 +716,8 @@ html  {
 	}
 }
 #alterar-cor-btn a{
-    background: #000;
+    background: #333;
     border-radius: 4px; 
-    color: #fff;
 }
 #alterar-cor-btn a:hover{
     background: #FD1141;

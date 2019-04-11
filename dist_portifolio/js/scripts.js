@@ -49,3 +49,33 @@ xhr.onload = function() {
 };
 xhr.send();
 
+function changeColorTheme(){
+    //document.getElementById('theme').
+    if(document.querySelector("link[href='dist_portifolio/css/styles.css']") == null){
+        document.querySelector("link[href='dist_portifolio/css/stylesDark.css']").href = "dist_portifolio/css/styles.css";
+        document.getElementById('back-btn-cor').style.background = "#000";
+        document.getElementById('back-btn-cor').style.color = "#fff";
+        document.getElementById('lead').style.backgroundImage = "url('dist_portifolio/images/background1.jpg')";
+        //url(../images/background1.jpg);
+    } else {
+        document.querySelector("link[href='dist_portifolio/css/styles.css']").href = "dist_portifolio/css/stylesDark.css";
+        document.getElementById('back-btn-cor').style.background = "#FD1141";
+        document.getElementById('back-btn-cor').style.color = "#fff";
+        document.getElementById('lead').style.backgroundImage = "url('dist_portifolio/images/background2.jpg')";
+    }
+}
+
+var skills = new XMLHttpRequest();
+skills.open('GET', 'http://demo8378319.mockable.io/skills');
+skills.onload = function() {
+    if (skills.status === 200) {
+        data = JSON.parse(skills.response);
+        for(i = 0 ; i < data.length ; i++){
+            document.getElementById("list-skills").innerHTML += '<li>' + data[i]['skill'] + '</li>';
+        }
+    }
+    else {
+        console.log('A requisição falhou ' + skills.status);
+    }
+};
+skills.send();
