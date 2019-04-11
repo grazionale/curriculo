@@ -336,6 +336,7 @@ footer {
     display: block;
     font-size: 2em;
     margin-top: 10px;
+    text-align: center;
 }
 .vtimeline-date {
     width: 260px;
@@ -572,6 +573,7 @@ footer {
 }
 .vtimeline-icon {
     margin-left: 0;
+    margin-right: 10px;
 }
 .vtimeline-content {
     margin-left: 70px;
